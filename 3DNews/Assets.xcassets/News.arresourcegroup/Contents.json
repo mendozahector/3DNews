@@ -5,7 +5,10 @@
   },
   "resources" : [
     {
-      "filename" : "mattress.arreferenceimage"
+      "filename" : "news1.arreferenceimage"
+    },
+    {
+      "filename" : "news2.arreferenceimage"
     }
   ]
 }
