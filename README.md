@@ -1,16 +1,15 @@
 # 3DNews
-Playing with ARKit and Image Tracking to render 3D models upon image recognition.
+Playing with ARKit and Image Tracking to render videos upon image recognition to create a 3D newspaper app.
 
-- User uses camera to recognize an image.
-- Upon image recognition a 3d pokemon model is rendered according to image tracked.
-- Images Tracked: Autozone & Smartrip cards.
+- User uses camera to recognize a newspaper image.
+- Upon image recognition a video is rendered according to image tracked.
+- Images Tracked: The Washington Post (10.24.2018 pages 10 & 11).
 
 ### Skills
 * ARKit
 * SceneKit
-* Horizontal Plane Detection
 * Image Recognition
-* 3D Models
+* VideoScene
 
 
 ## Finished App

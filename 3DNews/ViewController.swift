@@ -23,6 +23,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.delegate = self
     }
     
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -36,6 +37,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         sceneView.session.run(configuration, options: [.resetTracking, .removeExistingAnchors])
     }
+    
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
@@ -63,7 +65,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         return node
     }
-    
     
     
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
